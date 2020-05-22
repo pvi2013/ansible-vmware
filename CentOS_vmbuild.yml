@@ -20,16 +20,9 @@
       datastore: "iscsi-datastore01"
       networks:
       - name: VM Network
-        ip: 192.168.1.35
-        netmask: 255.255.255.0
-        gateway: 192.168.1.1
-        type: static
-        dns_servers: 192.168.1.23
+        type: dhcp
       customization:
         hostname: "local"
-        dns_servers:
-        - 192.168.1.23
-        - 192.168.1.1
       state: poweredon
       wait_for_ip_address: yes
     delegate_to: localhost
