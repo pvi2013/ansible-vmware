@@ -2,7 +2,7 @@
 - hosts: localhost
   gather_facts: no
   vars:
-    vcenter_server: "10.1.1.60"
+    vcenter_server: "192.168.1.60"
     vcenter_user: "administrator@vsphere.local"
     vcenter_pass: "S@!b@b@1985"
     datacenter_name: "pvihome"
