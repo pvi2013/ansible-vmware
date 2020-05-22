@@ -24,5 +24,5 @@
       customization:
         hostname: "local"
       state: poweredon
-      wait_for_ip_address: yes
+      wait_for_ip_address: no
     delegate_to: localhost
